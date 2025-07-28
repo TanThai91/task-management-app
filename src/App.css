@@ -1,0 +1,102 @@
+/* Reset & Base */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+/* Task Cards */
+.task-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.task-card {
+  width: 100%;
+}
+
+/* Responsive Task Cards */
+@media (min-width: 768px) {
+  .task-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .task-card {
+    width: calc(50% - 1rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .task-card {
+    width: calc(33.33% - 1rem);
+  }
+}
+
+/* Responsive Form */
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.task-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .task-form {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .task-form .form-group {
+    flex: 1 1 45%;
+  }
+
+  .task-form .form-group.full-width {
+    flex: 1 1 100%;
+  }
+}
+
+/* Navbar Responsive */
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: #3498db;
+  color: white;
+}
+
+.navbar .menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1rem;
+}
+
+@media (max-width: 767px) {
+  .navbar .menu-toggle {
+    display: block;
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
+}

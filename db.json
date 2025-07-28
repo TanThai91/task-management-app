@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123456",
+      "email": "admin@taskmanager.com",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user1",
+      "password": "password",
+      "email": "user1@taskmanager.com",
+      "role": "user"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Học React Hooks",
+      "description": "Hoàn thành bài học về useState và useEffect",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2024-08-15",
+      "createdBy": 1,
+      "createdAt": "2024-08-01T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Setup JSON Server",
+      "description": "Cài đặt và cấu hình JSON Server cho project",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2024-08-10",
+      "createdBy": 1,
+      "createdAt": "2024-08-01T11:00:00Z"
+    },
+    {
+      "id": "c658",
+      "title": "Thi React Js",
+      "description": "Hoàn thành bài thi về useState và useEffect",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2025-07-29",
+      "createdAt": "2025-07-28T14:21:35.959Z",
+      "createdBy": "1"
+    },
+    {
+      "id": "6f42",
+      "title": "ÂDADADAD",
+      "description": "ádsadsads",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2025-07-31",
+      "createdAt": "2025-07-28T14:50:01.076Z",
+      "createdBy": 1
+    },
+    {
+      "title": "Học cái gì đây?",
+      "description": "Học để làm gì?",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2025-07-31",
+      "createdAt": "2025-07-28T14:52:33.071Z",
+      "createdBy": 1,
+      "id": "8900"
+    },
+    {
+      "id": "192d",
+      "title": "Đã xong",
+      "description": "xong rồi",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2025-07-30",
+      "createdAt": "2025-07-28T14:52:54.247Z",
+      "createdBy": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Development",
+      "color": "#3498db"
+    },
+    {
+      "id": 2,
+      "name": "Learning",
+      "color": "#e74c3c"
+    },
+    {
+      "id": 3,
+      "name": "Personal",
+      "color": "#27ae60"
+    }
+  ]
+}
